@@ -1,0 +1,48 @@
+
+.perfil{
+
+    width: 100%;
+    max-width: 600px;
+   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.perfilPai{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+}
+.formEditar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.formEditar input,.button2{
+    max-width: 600px;
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.button2{
+    background: green;
+     border-radius: 20px;
+     font-size: 20px;
+}
+
+.button2:hover{
+    background: greenyellow;
+   
+
+}

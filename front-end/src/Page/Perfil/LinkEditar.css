@@ -1,0 +1,30 @@
+.perfilLinks{
+    
+    gap: 20px;
+    width: 100%;
+     background: rgba(177, 231, 231, 0.9);
+    
+}
+
+.perfilLinks li a{
+  
+    padding: 12px;
+    text-decoration: none;
+    list-style: none;
+  flex-direction: row;
+  color: black;
+}
+.perfilLinks li a:hover{
+    background: black;
+    color: white;
+}
+.perfilLinks ul{
+    display: flex;
+     text-align: center;
+     justify-content: center;
+     gap: 20px;
+}
+.perfilLinks ul li{
+    list-style: none;
+    display: flex;
+}
